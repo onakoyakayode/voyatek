@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "icon": "/icon/RoadHorizon.svg",
+        "text": "Activities"
+    },
+    {
+        "id": 2,
+        "icon": "/icon/Buildings.svg",
+        "text": "Hotels"
+    },
+    {
+        "id": 3,
+        "icon": "/icon/AirplaneTilt.svg",
+        "text": "Flights"
+    },
+    {
+        "id": 4,
+        "icon": "/icon/Student.svg",
+        "text": "Study"
+    },
+    {
+        "id": 5,
+        "icon": "/icon/NewspaperClipping.svg",
+        "text": "Visa"
+    },
+    {
+        "id": 6,
+        "icon": "/icon/SuitcaseRolling.svg",
+        "text": "immigration"
+    },
+    {
+        "id": 7,
+        "icon": "/icon/FirstAidKit.svg",
+        "text": "Medical"
+    },
+    {
+        "id": 8,
+        "icon": "/icon/Package.svg",
+        "text": "Vacation Packages"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "icon": "/icon/House.svg",
+        "text": "Home"
+    },
+    {
+        "id": 2,
+        "icon": "/icon/ChartPieSlice.svg",
+        "text": "Dashboard"
+    },
+    {
+        "id": 3,
+        "icon": "/icon/Wallet.svg",
+        "text": "Wallet"
+    },
+    {
+        "id": 4,
+        "icon": "/icon/ListChecks.svg",
+        "text": "Plan a trip"
+    },
+    {
+        "id": 5,
+        "icon": "/icon/HandCoins.svg",
+        "text": "Commission for Life"
+    },
+    {
+        "id": 6,
+        "icon": "/icon/Bell.svg",
+        "text": "Notification"
+    },
+    {
+        "id": 7,
+        "icon": "/icon/Basket.svg",
+        "text": "Carts"
+    },
+    {
+        "id": 8,
+        "icon": "/icon/PlusSquare.svg",
+        "text": "Create"
+    }
+]
