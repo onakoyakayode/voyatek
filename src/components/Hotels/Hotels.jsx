@@ -5,7 +5,12 @@ import hotelImg from "../../assets/img/hotel.png";
 import { CiLocationOn } from "react-icons/ci";
 import { FaRegStar } from "react-icons/fa6";
 import { TbBedFilled } from "react-icons/tb";
-import { PiSwimmingPoolBold, PiWineLight } from "react-icons/pi";
+import {
+  PiSwimmingPoolBold,
+  PiWineLight,
+  PiCaretCircleRightFill,
+  PiCaretCircleLeftFill,
+} from "react-icons/pi";
 import { FiCalendar } from "react-icons/fi";
 
 const Hotels = () => {
@@ -16,15 +21,17 @@ const Hotels = () => {
           <PiWarehouseBold />
           <h3>Hotels</h3>
         </div>
-        <h3 className="w-[153px] h-[46px] bg-white rounded flex justify-center items-center text-[13px] font-semibold">
+        <h3 className="w-[153px] h-[46px] bg-white cursor-pointer  transition duration-300 ease-in-out rounded flex justify-center items-center text-[13px] font-semibold">
           Add Hotels
         </h3>
       </div>
       <ul className="mb-6">
         <div className="w-full h-[274px] flex items-start mb-7">
           <div className="w-[95%] bg-white h-full rounded-l p-6 flex items-start justify-normal">
-            <div className="w-[30%] h-full">
+            <div className="w-[30%] h-full relative">
               <img src={hotelImg} alt="hotelImage" />
+              <PiCaretCircleLeftFill className="absolute top-[45%] cursor-pointer z-20 w-8 h-8 text-[#fff]" />
+              <PiCaretCircleRightFill className="absolute top-[45%] cursor-pointer right-0 z-20 w-8 h-8 text-[#fff]" />
             </div>
             <div className="w-[70%">
               <div className=" pb-[18px] border-b border-[#E4E7EC] w-auto flex justify-between items-center">
@@ -102,8 +109,10 @@ const Hotels = () => {
       <ul className="mb-6">
         <div className="w-full h-[274px] flex items-start mb-7">
           <div className="w-[95%] bg-white h-full rounded-l p-6 flex items-start justify-normal">
-            <div className="w-[30%] h-full">
+            <div className="w-[30%] h-full relative">
               <img src={hotelImg} alt="hotelImage" />
+              <PiCaretCircleLeftFill className="absolute top-[45%] cursor-pointer z-20 w-8 h-8 text-[#fff]" />
+              <PiCaretCircleRightFill className="absolute top-[45%] cursor-pointer right-0 z-20 w-8 h-8 text-[#fff]" />
             </div>
             <div className="w-[70%">
               <div className=" pb-[18px] border-b border-[#E4E7EC] w-auto flex justify-between items-center">

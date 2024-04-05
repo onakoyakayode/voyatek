@@ -10,8 +10,8 @@ import {
 } from "react-icons/io5";
 
 import {
-  PiSwimmingPoolBold,
-  PiWineLight,
+  PiCaretCircleLeftFill,
+  PiCaretCircleRightFill,
   PiRoadHorizonBold,
 } from "react-icons/pi";
 import { FiCalendar } from "react-icons/fi";
@@ -31,12 +31,14 @@ const Activities = () => {
       <ul className="mb-6">
         <div className="w-full h-[274px] flex items-start mb-7">
           <div className="w-[95%] bg-white h-full rounded-l p-6 flex items-start justify-normal">
-            <div className="w-[30%] h-full">
+            <div className="w-[30%] h-full relative">
               <img
                 src={activityImg}
                 alt="hotelImage"
                 className="w-full h-full"
               />
+              <PiCaretCircleLeftFill className="absolute top-[45%] cursor-pointer z-20 w-8 h-8 text-[#fff]" />
+              <PiCaretCircleRightFill className="absolute top-[45%] cursor-pointer right-0 z-20 w-8 h-8 text-[#fff]" />
             </div>
             <div className="w-[70%]">
               <div className=" pb-[18px] border-b border-[#E4E7EC] w-auto flex justify-between items-start">
@@ -115,12 +117,14 @@ const Activities = () => {
       <ul className="mb-6">
         <div className="w-full h-[274px] flex items-start mb-7">
           <div className="w-[95%] bg-white h-full rounded-l p-6 flex items-start justify-normal">
-            <div className="w-[30%] h-full">
+            <div className="w-[30%] h-full relative">
               <img
                 src={activityImg}
                 alt="hotelImage"
                 className="w-full h-full"
               />
+              <PiCaretCircleLeftFill className="absolute top-[45%] cursor-pointer z-20 w-8 h-8 text-[#fff]" />
+              <PiCaretCircleRightFill className="absolute top-[45%] cursor-pointer right-0 z-20 w-8 h-8 text-[#fff]" />
             </div>
             <div className="w-[70%]">
               <div className=" pb-[18px] border-b border-[#E4E7EC] w-auto flex justify-between items-start">
@@ -199,12 +203,14 @@ const Activities = () => {
       <ul className="mb-6">
         <div className="w-full h-[274px] flex items-start mb-7">
           <div className="w-[95%] bg-white h-full rounded-l p-6 flex items-start justify-normal">
-            <div className="w-[30%] h-full">
+            <div className="w-[30%] h-full relative">
               <img
                 src={activityImg}
                 alt="hotelImage"
                 className="w-full h-full"
               />
+              <PiCaretCircleLeftFill className="absolute top-[45%] cursor-pointer z-20 w-8 h-8 text-[#fff]" />
+              <PiCaretCircleRightFill className="absolute top-[45%] cursor-pointer right-0 z-20 w-8 h-8 text-[#fff]" />
             </div>
             <div className="w-[70%]">
               <div className=" pb-[18px] border-b border-[#E4E7EC] w-auto flex justify-between items-start">

@@ -57,7 +57,7 @@ const TripItenary = () => {
             <TbPlaneInflight className="w-6 h-6 object-cover" />
             <h5 className="text-[17px]">Flights</h5>
           </div>
-          <h5 className="w-[153px] h-[46px] bg-white rounded flex justify-center items-center text-[#0D6EFD] text-[13px] font-semibold cursor-pointer">
+          <h5 className="w-[153px] h-[46px] bg-white hover:bg-[#0D6EFD] hover:text-[#fff] transition duration-300 ease-in-out rounded flex justify-center items-center text-[#0D6EFD] text-[13px] font-semibold cursor-pointer">
             Add Flights
           </h5>
         </div>
@@ -90,13 +90,13 @@ const TripItenary = () => {
                     </h3>
                     <h5 className="text-[#676E7E] text-[13px]">Sun, 20 Aug</h5>
                   </div>
-                  <div className="w-[250px]">
+                  <div className="w-[230px]">
                     <div className="flex justify-between items-center text-[#676E7E] mb-[11px]">
-                      <TbPlaneDeparture />
+                      <TbPlaneDeparture className="w-5 h-5" />
                       <p className="text-[13px] font-medium">
                         Duration: 1h 45m
                       </p>
-                      <TbPlaneArrival />
+                      <TbPlaneArrival className="w-5 h-5" />
                     </div>
                     <div className="relative bg-[#E7F0FF] w-full h-[5px]">
                       <div className="bg-[#0D6EFD] absolute left-[29%] h-[5px] w-[110px] rounded"></div>
@@ -183,13 +183,13 @@ const TripItenary = () => {
                     </h3>
                     <h5 className="text-[#676E7E] text-[13px]">Sun, 20 Aug</h5>
                   </div>
-                  <div className="w-[250px]">
+                  <div className="w-[230px]">
                     <div className="flex justify-between items-center text-[#676E7E] mb-[11px]">
-                      <TbPlaneDeparture />
+                      <TbPlaneDeparture className="w-5 h-5" />
                       <p className="text-[13px] font-medium">
                         Duration: 1h 45m
                       </p>
-                      <TbPlaneArrival />
+                      <TbPlaneArrival className="w-5 h-5" />
                     </div>
                     <div className="relative bg-[#E7F0FF] w-full h-[5px]">
                       <div className="bg-[#0D6EFD] absolute left-[29%] h-[5px] w-[110px] rounded"></div>

@@ -19,21 +19,21 @@ const Card = ({
 
   const buttonStyle = {
     backgroundColor: buttonColor,
-    buttonTextColor: btnTextColor,
+    color: btnTextColor,
   };
 
   return (
     <div
-      className="h-[203px] w-[270px] rounded py-[18px] px-[14px]"
+      className="h-[193px] w-[240px] rounded py-[18px] px-[14px]"
       style={cardStyle}
     >
       <div className="w-full">
-        <h3 className="font-semibold text-[18px] mb-2">{title}</h3>
-        <p className="text-[14px] mb-9 font-light">{text}</p>
+        <h3 className="font-bold text-[18px] mb-2">{title}</h3>
+        <p className="text-[13px] mb-6 font-light">{text}</p>
         <button
           onClick={onClick}
           style={buttonStyle}
-          className={`w-full bg-[#0D6EFD] rounded py-4 flex justify-center items-center text-[14px] font-medium text-[#fff]`}
+          className={`w-full bg-[#0D6EFD] rounded py-3 flex justify-center items-center text-[13px] font-medium text-[#fff]`}
         >
           {buttonText}
         </button>

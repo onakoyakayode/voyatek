@@ -8,7 +8,7 @@ import Ell from "../assets/icon/Ell.png";
 import arrowDown from "../assets/icon/CaretDown.svg";
 
 const NavlinkItem = ({ icon, text }) => (
-  <div className="flex flex-col items-center">
+  <div className="flex flex-col items-center pt-2">
     <img src={icon} alt={text} className="w-6 h-6 object-cover" />
     <span className="text-[12px]">{text}</span>
   </div>
@@ -21,7 +21,9 @@ const NavlinksList = ({ navlinks }) => (
         <Link
           to={""}
           key={navlink.id}
-          className="flex flex-col justify-center items-center hover:text-[#232a34]"
+          className={`flex flex-col justify-center items-center hover:text-[#232a34] ${
+            navlink.text === "Plan a trip" ? "text-[#232a34] font-semibold" : ""
+          }`}
         >
           <NavlinkItem {...navlink} />
         </Link>
@@ -49,7 +51,7 @@ const Navbar = () => {
             name="search"
             id=""
             placeholder="Search..."
-            className="h-[58px] w-[300px] bg-[#f0f2f5] text-[#647995] pla placeholder:pl-[30px]
+            className="h-[58px] w-[300px] bg-[#f0f2f5] font-light text-[#647995] pla placeholder:pl-[30px]
             rounded px-3 py-4 border border-gray-300 focus:outline-none focus:border-blue-500"
             onFocus={() => setIsFocused(false)}
             onBlur={() => setIsFocused(true)}

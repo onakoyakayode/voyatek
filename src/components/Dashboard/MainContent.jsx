@@ -53,7 +53,7 @@ const MainContent = () => {
         <Card
           title="Flights"
           text="Build, personalize, and optimize your itineraries with our trip planner."
-          buttonText="Add Hotels"
+          buttonText="Add Flights"
           onClick={handleClick}
           textColor="#fff"
           buttonColor="#fff"
